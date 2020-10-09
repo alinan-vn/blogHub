@@ -1,0 +1,22 @@
+$color-one: red;
+$color-two: blue;
+$color-three: green;
+$color-four: black;
+
+.box-container {
+    padding-top: 5rem;
+
+    display: flex;    
+
+    align-items: center;
+    justify-content: center;
+
+    border-color: $color-one;
+
+}
+
+.box {
+    border: 8px solid $color-one;
+    height: 20rem;
+    width: 10rem;
+}
