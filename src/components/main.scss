@@ -5,18 +5,52 @@ $color-four: black;
 
 .box-container {
     padding-top: 5rem;
+    padding-bottom: 10rem;
 
     display: flex;    
 
     align-items: center;
     justify-content: center;
-
-    border-color: $color-one;
-
 }
 
-.box {
+.box-one {
+    border: 8px solid $color-one;
+}
+
+.box-two {
     border: 8px solid $color-one;
     height: 20rem;
     width: 10rem;
+}
+
+.box-three {
+    border: 8px dotted $color-one;
+    height: 20rem;
+    width: 10rem;
+}
+
+.box-four {
+    border: 8px dashed $color-one;
+    height: 20rem;
+    width: 10rem;
+}
+
+.box-five {
+    border: 8px inset $color-one;
+    height: 20rem;
+    width: 10rem;
+}
+
+.box-six {
+    border: 8px outset $color-one;
+    height: 20rem;
+    width: 10rem;
+}
+
+.box-seven {
+    border: 8px solid $color-one;
+    height: 20rem;
+    width: 10rem;
+
+    border-radius: 1rem;
 }
